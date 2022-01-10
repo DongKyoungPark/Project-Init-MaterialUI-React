@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { Router, Route, Switch, Redirect } from 'react-router-dom';
-import { ThemeProvider } from '@mui/material/styles';
-import { CssBaseline } from '@mui/material';
+import { ThemeProvider } from '@material-ui/core/styles';
+import { CssBaseline } from '@material-ui/core';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 import theme from '../Theme/theme';

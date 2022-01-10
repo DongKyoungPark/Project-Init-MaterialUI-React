@@ -1,6 +1,5 @@
 import React, { memo } from 'react';
-import { FormControl, FormControlLabel, Checkbox as MuiCheckbox, FormHelperText } from '@mui/material';
-import { makeStyles } from '@mui/styles';
+import { makeStyles, FormControl, FormControlLabel, Checkbox as MuiCheckbox, FormHelperText } from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
   helperText: {

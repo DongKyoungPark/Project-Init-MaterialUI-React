@@ -1,7 +1,6 @@
 import React, { memo } from 'react';
-import { Button as MuiButton, CircularProgress, Typography } from '@mui/material';
-import { makeStyles } from '@mui/styles';
-import { green } from '@mui/material/colors';
+import { Button as MuiButton, makeStyles, CircularProgress, Typography } from '@material-ui/core';
+import { green } from '@material-ui/core/colors';
 
 const useStyles = makeStyles(theme => ({
   root: {

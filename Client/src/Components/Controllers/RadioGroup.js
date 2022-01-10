@@ -1,6 +1,5 @@
 import React, { memo } from 'react';
-import { FormControl, FormLabel, RadioGroup as MuiRadioGroup, FormControlLabel, Radio } from '@mui/material';
-
+import { FormControl, FormLabel, RadioGroup as MuiRadioGroup, FormControlLabel, Radio } from '@material-ui/core';
 
 const RadioGroup = memo(({ name, label, value, onChange, items }) => {
   return (

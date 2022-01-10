@@ -1,15 +1,17 @@
 import React, { memo } from 'react';
-import { FormControl, InputLabel, Select as MuiSelect, MenuItem, FormHelperText } from '@mui/material';
-import { makeStyles, withStyles } from '@mui/styles';
+import { makeStyles, withStyles, FormControl, InputLabel, Select as MuiSelect, MenuItem, FormHelperText } from '@material-ui/core';
 import clsx from 'clsx';
 
 const useStyles = makeStyles(theme => ({
   selectRoot: {
-    height: 'auto',
-    marginBottom: theme.spacing(2),
-    // '& .MuiSelect-select': {
-    //   padding: '11px !important',
-    // },
+    width: '100%',
+    backgroundColor: '#fff',
+
+    '& .MuiFormHelperText-contained': {
+      margin: '0',
+      padding: '8px 8px 0 8px',
+      background: '#F6F7F9',
+    },
   },
 }));
 
