@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { FormControl, FormControlLabel, Switch as MuiSwitch } from '@material-ui/core';
+import { FormControl, FormControlLabel, Switch as MuiSwitch } from '@mui/material';
 
 // const useStyles = makeStyles(theme => ({}));
 

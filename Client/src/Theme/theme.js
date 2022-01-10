@@ -1,4 +1,4 @@
-import { createTheme } from '@material-ui/core/styles';
+import { createTheme } from '@mui/material/styles';
 
 const defaultTheme = createTheme();
 
@@ -11,9 +11,7 @@ const theme = createTheme({
     background: { default: '#FAFAFC', paper: '#FFFFFF', card: '#F6F6F6' },
     text: { primary: '#282D35', secondary: '#3D4148', disabled: '#B6B9BF' },
   },
-  spacing: 8,
   typography: { fontFamily: `"S-CoreDream-4Regular", "Noto Sans KR", "Roboto", "Helvetica", "Arial", sans-serif` },
-  // breakpoints: { values: { xs: 0, sm: 768, md: 992, lg: 1200, xl: 1920 } },
   overrides: {
     MuiCssBaseline: {
       '@global': {

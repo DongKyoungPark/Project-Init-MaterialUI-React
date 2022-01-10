@@ -1,5 +1,5 @@
 import React, { useState, memo } from 'react';
-import { Grid, Typography } from '@material-ui/core';
+import { Grid, Typography } from '@mui/material';
 
 import { UseForm } from '../../Custom/UseForm';
 import Controller from '../../Components/Controllers/Controller';
@@ -27,11 +27,11 @@ const Main = memo(() => {
 
   return (
     <>
-      {/* <Grid container className={clsx(gClasses.root, gClasses.w100)}> */}
-      <Typography color='inherit' variant='h6'>
-        Main
-      </Typography>
-      {/* </Grid> */}
+      <Grid className={clsx(gClasses.root)}>
+        <Typography color='inherit' variant='h6'>
+          Main
+        </Typography>
+      </Grid>
     </>
   );
 });

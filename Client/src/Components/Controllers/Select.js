@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
-import { makeStyles, withStyles, FormControl, InputLabel, Select as MuiSelect, MenuItem, FormHelperText } from '@material-ui/core';
+import { FormControl, InputLabel, Select as MuiSelect, MenuItem, FormHelperText } from '@mui/material';
+import { makeStyles, withStyles } from '@mui/styles';
 import clsx from 'clsx';
 
 const useStyles = makeStyles(theme => ({

@@ -1,5 +1,5 @@
 import React, { useState, memo } from 'react';
-// import { makeStyles } from '@material-ui/core';
+// import { makeStyles } from '@mui/material';
 
 export const UseForm = (initialValues, validateOnChange = false, validate) => {
   const [values, setValues] = useState(initialValues);
