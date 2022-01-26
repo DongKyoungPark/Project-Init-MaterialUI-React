@@ -10,9 +10,11 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: '#fff',
 
     '& .MuiFormHelperText-contained': {
+      position: 'absolute',
+      bottom: '-24px',
       margin: '0',
-      padding: '8px 8px 0 8px',
-      background: '#F6F7F9',
+      padding: '0px 8px',
+      background: 'initial',
     },
   },
 }));
